@@ -17,4 +17,6 @@ AfterTest Annotation is used to quite the browser once the tests are over.
 
 
 NOTE:
-Please change the path of Chrome Driver in testFlow.properties to match the local system version of chrome driver.s
+Please change the path of Chrome Driver in testFlow.properties to match the local system version of chrome driver.
+
+You can also see the Task 1 assignment under Task1 folder

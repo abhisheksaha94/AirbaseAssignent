@@ -1,0 +1,28 @@
+Amazon.in Use Case:
+
+Search Functionality Use Case Test:
+- Existing Product - Will try all cases around searching an existing product
+- Non-Existing Product - Will try all cases around searching non-existing product
+- Random Invalid Text - Will enter Random Invalid text which should result in no Product 
+- Auto-Suggestion - Will type characters 1 at a time to see if auto suggestions is getting updated
+- Product with Characters and Numbers - Will search for product whose name contains both text and number
+- Product Title - Will search a product with whole title of the product
+- Category wise search - Will change category from dropdown and search and expect relevant products from category
+- Different Language - Will change language to see if search gives proper result in same language
+- Logged in/out user - Will search products to identify same results for both logged in and logged out users (Assuming it should be same)
+- Different Address - Will search products with different default address (Assuming We should see different results for different address based on availability)
+
+
+Filter: Will test with combinations of Filters to observe the result changing based of filter selected
+- Common Filters - Delivery Time, Customer Review, Price, etc - 
+- Product Specific Filters 
+
+Add to Cart:
+- Cart Accessibility : Check if cart is accessible irrespective of any item is present in cart of not
+- Cart updation when adding products to cart - Count in cart icon should get updated and cart view on the right side should also get updated.
+- Clicking on Cart should take us to cart - Count before clicking and after entering the card should be same.
+- Updating Products count in cart - Changing count of product should change the count in cart icon as well. 
+- Verify Total Amount by adding/delete products in cart - Changing count, adding or deleting product should change the final checkout amount of cart.
+- Clicking on Products in cart to access the Product Page - When we click a product link in cart, it should take us to Product Page
+- Sequence of Product in cart -  Last product added to cart should be the first item in cart and so on. 
+
